@@ -75,7 +75,7 @@ public class RedSkyServiceTest {
 
 	@Test
 	@Order(1)  
-	public void saveSupplier() throws Exception {
+	public void saveRedSky() throws Exception {
 
 		String mockRedSkyJson = JsonConstants.mockRedSkyJson;
 		Gson gson = new Gson();
